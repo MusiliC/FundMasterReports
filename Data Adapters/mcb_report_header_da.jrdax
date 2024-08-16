@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsonDataAdapter class="net.sf.jasperreports.data.json.JsonDataAdapterImpl">
+  <name>fm_report_header_da</name>
+  <dataFile type="httpDataLocation">
+    <method>GET</method>
+    <url>http://localhost:8080/Xe/api/v2/reports/getReportHeaderDetails</url>
+    <username></username>
+    <password></password>
+    <urlParameter>
+      <name>schemeId</name>
+      <value>2501846</value>
+    </urlParameter>
+    <header>
+      <name>Authorization</name>
+      <value>Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlzcyI6ImFkbWluIiwiaWF0IjoxNjk1MjgyMzAxLCJleHAiOjIxNDU4MTk2MDB9.uOsswlFfuXDe1c_VJhqBNYKm_sG9uZdmgsh_OSfVfAU</value>
+    </header>
+  </dataFile>
+  <selectExpression></selectExpression>
+  <locale>en_US</locale>
+  <timeZone>Africa/Nairobi</timeZone>
+  <useConnection>true</useConnection>
+  <language>json</language>
+</jsonDataAdapter>

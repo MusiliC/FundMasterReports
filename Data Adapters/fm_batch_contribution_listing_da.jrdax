@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsonDataAdapter class="net.sf.jasperreports.data.json.JsonDataAdapterImpl">
+  <name>fm_batch_contribution_listing_da</name>
+  <dataFile type="httpDataLocation">
+    <method>GET</method>
+    <url>http://localhost:8080/Xe/api/v2/reports/batchContributionsReports/getBatchContributionsList</url>
+    <username></username>
+    <password></password>
+    <urlParameter>
+      <name>schemeId</name>
+      <value>2501846</value>
+    </urlParameter>
+    <urlParameter>
+      <name>dateFrom</name>
+      <value>01-01-2022</value>
+    </urlParameter>
+    <urlParameter>
+      <name>dateTo</name>
+      <value>31-12-2022</value>
+    </urlParameter>
+    <header>
+      <name>Authorization</name>
+      <value>Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlzcyI6ImFkbWluIiwiaWF0IjoxNjk0NTQ0MjMzLCJleHAiOjE4NjE3MzY0MDB9.FbDc-HgNsrv9rp0oP4Brh0wMg6Dlgm0dHBfg2tk01Uc</value>
+    </header>
+  </dataFile>
+  <selectExpression></selectExpression>
+  <locale>en_US</locale>
+  <timeZone>Africa/Nairobi</timeZone>
+  <useConnection>true</useConnection>
+  <language>json</language>
+</jsonDataAdapter>
